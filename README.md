@@ -64,3 +64,4 @@ If you use one of my reservations, that's fine, but I only have 11 of them and a
 **The most important thing you need to remember is that you may never do any serious work (in Python, R, or Stata) on a login node: you must provision a real machine using srun or sbatch.** If you do work in a login node, you may receive a nasty email from someone annoyed at you for taking down the login server.
 
 ### module add
+bashrc bash profile
