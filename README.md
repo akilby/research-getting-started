@@ -16,10 +16,15 @@ There is [extensive documentation about how the cluster works](https://rc-docs.n
 
 ### Logging in
 
-You'll need to be able to SSH into the cluster. On a Mac, you simply open the Terminal application. On a PC <<thar be dragons>>, i.e., you'll need to figure out an SSH client on your own. Once you have it opeen, type:
+You'll need to be able to SSH into the cluster. On a Mac, you simply open the Terminal application. On a PC `thar be dragons`, i.e., you'll need to figure out an SSH client on your own. Once you have Terminal or equivalent open, type:
 
 ```bash
-ssh USER@login.discovery.neu.edu
+ssh USER_NAME@login.discovery.neu.edu
 ```
+
+You'll be prompted for a password. Enter your NU password, and you should be logged into the server.
+
+*Note: If you find it gets annoying to type your password every time you log in to the HPC, [it's possible to set up SSH keys](http://sshmenu.sourceforge.net/articles/key-setup.html) that automate login. Don't do this right when you're first getting going, but do come back to this once you're all set up if you are finding it annoying.*
+
 
 **The most important thing you need to remember is 
