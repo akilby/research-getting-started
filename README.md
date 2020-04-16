@@ -30,7 +30,7 @@ You'll be prompted for a password. Enter your NU password, and you should be log
 
 What you're in here is a basic Linux machine. If you've never interacted with a Linux computer at the command line, you should try to sign up for an HPC tutorial, or read some online guides. 
 
-*(Two workhorse commands you'll use over and over are* `cd`*, or change directory, and* `ls`*, or list contents of the directory. Once you've been added to my resources, try *`cd /work/akilby/`* and then *`ls`* to see what's inside.)*
+*(Two workhorse commands you'll use over and over are* `cd`*, or change directory, and* `ls`*, or list contents of the directory. Once you've been added to my resources, try* `cd /work/akilby/` *and then* `ls` *to see what's inside.)*
 
 ```bash
 srun --partition=short --mem=0 --wait=0 --exclusive --time=1-00:00:00  --pty /bin/bash
