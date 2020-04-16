@@ -67,7 +67,9 @@ If you use one of my reservations, that's fine, but I only have 11 of them and a
 bashrc bash profile
 
 
-## Useful HPC / slurm debugging commands
+## Other useful notes on the HPC, Unix, and Slurm
+
+The HPC uses [Slurm](https://slurm.schedmd.com/quickstart.html) to manage job scheduling and job-related tasks. 
 
 ```bash
 squeue -u YOUR_USER_NAME 
@@ -79,4 +81,6 @@ scancel JOBID
 Example of sbatch script
 
 vim
+
+rchelp@northeastern.edu
 
