@@ -95,9 +95,26 @@ seff JOBID
 scancel JOBID
 ```
 
-Example of sbatch script
+```bash
+#!/bin/bash
 
-vim
+#SBATCH --mem=0
+#SBATCH --nodes=1
+#SBATCH --cpus-per-task=26
+#SBATCH --exclusive
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=reservation
+#SBATCH --reservation=kilby
+#SBATCH --output=pyscript.out
+#SBATCH --error=pyscript.out
 
-rchelp@northeastern.edu
+module add python/3.7.3-base
+
+source /PATH/TO/YOUR/VENVS/venvs/general/bin/activate
+python -u pyscript.py 
+deactivate
+```
+
+To generate a help ticket, you can email:
+`rchelp@northeastern.edu`
 
