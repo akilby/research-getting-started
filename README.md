@@ -1,5 +1,7 @@
 # Onboarding guide for RAs
 
+[HPC](#getting-started-with-northeastern's-high-performance-computing-cluster)
+
 ## Getting started with Northeastern's High Performance Computing cluster
 
 Nearly everything we do will be on Northeastern's HPC (also called the Discovery cluster or the Holyoke Cluster). There are many advantages to the cluster - it allows for terabytes of storage, has a large number of fast machines that you can run in parallel, and has all the software (and licenses) we use. It also has some disadvantages: it can be confusing, buggy, and can get overloaded in periods of high demand. There is also a pretty significant learning curve.
