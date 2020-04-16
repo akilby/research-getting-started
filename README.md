@@ -65,3 +65,18 @@ If you use one of my reservations, that's fine, but I only have 11 of them and a
 
 ### module add
 bashrc bash profile
+
+
+## Useful HPC / slurm debugging commands
+
+```bash
+squeue -u YOUR_USER_NAME 
+squeue --partition=reservation --reservation=kilby
+seff JOBID
+scancel JOBID
+```
+
+Example of sbatch script
+
+vim
+
