@@ -26,5 +26,14 @@ You'll be prompted for a password. Enter your NU password, and you should be log
 
 *Note: If you find it gets annoying to type your password every time you log in to the HPC, [it's possible to set up SSH keys](http://sshmenu.sourceforge.net/articles/key-setup.html) that automate login. Don't do this right when you're first getting going, but do come back to this once you're all set up if you are finding it annoying.*
 
+### What is this
+
+What you're in here is a basic Linux machine. If you've never interacted with a Linux computer at the command line, you should try to sign up for an HPC tutorial, or read some online guides. *(The two workhorse commands you'll use over and over are `cd`, change directory, and `ls`, or list contents of the directory. Once you've been added to my resources, try `cd /work/akilby/` and then `ls` to see what's inside.)
+
+```bash
+srun --partition=short --mem=0 --wait=0 --exclusive --time=1-00:00:00  --pty /bin/bash
+```
 
 **The most important thing you need to remember is 
+
+module add
