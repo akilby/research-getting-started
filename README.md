@@ -16,10 +16,10 @@ There is [extensive documentation about how the cluster works](https://rc-docs.n
 
 ### Logging in
 
-You'll need to be able to SSH into the cluster. On a Mac, you simply open the Terminal applicaation and type:
+You'll need to be able to SSH into the cluster. On a Mac, you simply open the Terminal application. On a PC <<thar be dragons>>, i.e., you'll need to figure out an SSH client on your own. Once you have it opeen, type:
 
 ```bash
-ssh HPCUSERNAME@login.discovery.neu.edu
+ssh USER@login.discovery.neu.edu
 ```
 
 **The most important thing you need to remember is 
