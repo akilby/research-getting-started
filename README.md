@@ -1,5 +1,5 @@
 # Getting started with research in Python and R on the HPC
-### Onboarding guide for RAs
+## Onboarding guide for RAs
 
 1. Get an account on Northeastern's High Performance Computing cluster
 
