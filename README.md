@@ -1,7 +1,7 @@
 # Onboarding guide for RAs
 
 #### Table of Contents
-[1. Getting Started with the HPC](#getting-started-with-northeasterns-high-performance-computing-cluster)
+1. [Getting Started with the HPC](#getting-started-with-northeasterns-high-performance-computing-cluster)
 
 ## Getting started with Northeastern's High Performance Computing cluster
 
