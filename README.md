@@ -63,8 +63,21 @@ If you use one of my reservations, that's fine, but I only have 11 of them and a
 
 **The most important thing you need to remember is that you may never do any serious work (in Python, R, or Stata) on a login node: you must provision a real machine using srun or sbatch.** If you do work in a login node, you may receive a nasty email from someone annoyed at you for taking down the login server.
 
-### module add
-bashrc bash profile
+### How to use Python
+
+In order to use software on the HPC, you have to add the module first. To see modules available on the HPC, type
+
+```bash
+module avail
+```
+And in order to add one such as Python for use, type
+
+```bash
+module add python/3.7.3-base
+``` 
+
+It may become annoying to type `module add python/3.7.3-base` every time you log in. To do something automatically at login, you need to modify the file found at `~/.bashrc`.
+
 
 
 ## Other useful notes on the HPC, Unix, and Slurm
