@@ -19,7 +19,7 @@ There is [extensive documentation about how the cluster works](https://rc-docs.n
 
 ### Logging in
 
-You'll need to be able to SSH into the cluster. On a Mac, you simply open the Terminal application. On a PC \~thar be dragons\~, i.e., you'll need to figure out an SSH client on your own (some recommend PowerShell). Once you have Terminal or equivalent open, type:
+You'll need to be able to SSH into the cluster. On a Mac, you simply open the Terminal application. On a PC \~thar be dragons\~, i.e., you'll need to figure out an SSH client on your own (OpenSSH may come installed; some recommend PowerShell). Once you have Terminal or equivalent open, type:
 
 ```bash
 ssh YOUR_USER_NAME@login.discovery.neu.edu
