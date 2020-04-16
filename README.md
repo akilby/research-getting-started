@@ -22,7 +22,7 @@ You'll need to be able to SSH into the cluster. On a Mac, you simply open the Te
 ssh YOUR_USER_NAME@login.discovery.neu.edu
 ```
 
-You'll be prompted for a password. Enter your NU password, and you should be logged into the cluster.
+You'll be prompted for a password. Enter your NU password, and you should then be logged into the cluster.
 
 *Note: If you find it gets annoying to type your password every time you log in to the HPC, [it's possible to set up SSH keys](http://sshmenu.sourceforge.net/articles/key-setup.html) that automate login. Don't do this right when you're first getting going, but do come back to this once you're all set up if you are finding it annoying.*
 
@@ -32,10 +32,32 @@ What you're in here is a basic Linux machine. If you've never interacted with a 
 
 *(Two workhorse commands you'll use over and over are* `cd`*, or change directory, and* `ls`*, or list contents of the directory. Once you've been added to my resources, try* `cd /work/akilby/` *and then* `ls` *to see what's inside.)*
 
+### How to start a machine to do work
+
+When you log in, you're in what's called a *login node.* To do any substantial work, you need to start up a real machine using one of two commands, `srun` or  `sbatch`. You will mostly use `srun` to start. To log into a machine, try:
+
 ```bash
-srun --partition=short --mem=0 --wait=0 --exclusive --time=1-00:00:00  --pty /bin/bash
+srun --partition=short --time=0-04:00:00  --pty /bin/bash
 ```
 
-**The most important thing you need to remember is 
+If this doesn't work, talk to me, as you may not be properly configured. 
 
-module add
+Next, type `exit` to get out of this node and go back to a login node. 
+
+The basic machines on Discovery are not usually good enough to do the kinds of work we do. To get a machine with enough juice, you can specify more options, like so:
+
+```bash
+srun --partition=short --mem=0 --exclusive --time=1-00:00:00 --cpus-per-task=28 --pty /bin/bash
+```
+
+I also have reservations that are well-resourced. You should be able to access them using:
+
+```bash
+srun --partition=reservation --reservation=kilby --exclusive --mem=0 --time=1-00:00:00 --pty /bin/bash
+```
+
+If you use one of my reservations, that's fine, but I only have 11 of them and an increasing number of RAs. That means you shouldn't use more than one or two at a time, and you should always `exit` out of the node when you are done working.
+
+**The most important thing you need to remember is that you may never do any serious work (in Python, R, or Stata) on a login node: you must provision a real machine using srun or sbatch.**
+
+### module add
