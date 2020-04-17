@@ -126,3 +126,5 @@ It may become annoying to type `module add python/3.7.3-base` every time you log
 ## Jupyter notebooks with Open OnDemand
 
 ## Tips and tricks
+
+[Here's]() a collection of useful tips and tricks I've accumulated over the years.
