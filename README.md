@@ -2,7 +2,7 @@
 
 ### Table of Contents
 1. [Getting Started with the HPC](#getting-started-with-northeasterns-high-performance-computing-cluster)
-2. [Running Python using a virtual environment](#running-python-using-a-virtual-environment)
+2. [Running Python in a virtual environment](#running-python-in-a-virtual-environment)
 3. [Getting files on and off the HPC](#getting-files-on-and-off-the-hpc)
 4. [Using GitHub repos to manage code](#using-github-repos-to-manage-code)
 5. [Installing and using Kilby group specific packages](#installing-and-using-kilby-group-specific-packages)
@@ -92,7 +92,7 @@ It may become annoying to type `module add python/3.7.3-base` every time you log
 
 [Other notes on the HPC, Unix, and Slurm](https://github.com/akilby/research-getting-started/tree/master/hpc#other-notes-on-the-hpc-unix-and-slurm)
 
-## Running Python using a virtual environment
+## Running Python in a virtual environment
 
 ## Getting files on and off the HPC
 
