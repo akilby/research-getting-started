@@ -91,7 +91,7 @@ It may become annoying to type `module add python/3.7.3-base` every time you log
 
 ## Getting files on and off the HPC
 
-1. Using xfer and scp
+1. Using `xfer` and `scp`
 
     The simple command line option to move one relatively small file:
     ```bash
@@ -102,3 +102,8 @@ It may become annoying to type `module add python/3.7.3-base` every time you log
     scp /PATH/TO/FILE YOUR_USER_NAME@xfer-00.discovery.neu.edu:/PATH/TO/DESTINATION
     ```
 
+2. Using Discovery's Open OnDemand
+
+    Open OnDemand is a graphical interface for Discovery that we will use more later in this guide. You can log on by navigating to https://ood.discovery.neu.edu/ and entering your username and password.
+    
+    At the top is a menu. Click on `Files`, then `Home Directory`. This will take you to a graphical interface where you can upload and download files from the HPC.
