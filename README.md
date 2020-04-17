@@ -89,3 +89,16 @@ It may become annoying to type `module add python/3.7.3-base` every time you log
 
 ## Running Python using a virtual environment
 
+## Getting files on and off the HPC
+
+1. Using xfer and scp
+
+    The simple command line option to move one relatively small file:
+    ```bash
+    scp YOUR_USER_NAME@xfer-00.discovery.neu.edu:/PATH/TO/FILE /PATH/TO/DESTINATION
+    ```
+    or
+    ```bash
+    scp /PATH/TO/FILE YOUR_USER_NAME@xfer-00.discovery.neu.edu:/PATH/TO/DESTINATION
+    ```
+
