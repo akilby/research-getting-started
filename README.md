@@ -116,7 +116,7 @@ It may become annoying to type `module add python/3.7.3-base` every time you log
     
 3. Using GitHib, for code and scripts
 
-    You will not use typical file transfer to get your scripts and code onto the HPC. Instead we will manage code via GitHub. To get going with this requires some work. See the section
+    You will not use typical file transfer to get your scripts and code onto the HPC. Instead we will manage code via GitHub. To get going with this requires some work. See the [next section](#using-github-repos-to-manage-code).
 
 
 ## Using GitHub repos to manage code
