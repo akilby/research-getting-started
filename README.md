@@ -90,7 +90,7 @@ The HPC uses [Slurm](https://slurm.schedmd.com/quickstart.html) to manage job sc
 
 1. Check the status of jobs you have running on the general partitions (and if they are stuck, find out why they are still in the queue
     ```bash
-    squeue -u YOUR_USER_NAME 
+    squeue --user=YOUR_USER_NAME 
     ```
 2. Check the status of all jobs on my reservation:
     ```bash
@@ -100,15 +100,11 @@ The HPC uses [Slurm](https://slurm.schedmd.com/quickstart.html) to manage job sc
     ```bash
     sinfo --partition=short
     ```
-    
-4. Check the resources you have on the node you've provisioned for a job    
-    
+4. Check the resources you have on the machine you've provisioned for a job    
     ```bash
     seff JOBID
     ```
-
 5. Kill a job you submitted
-
     ```bash
     scancel JOBID
     ```
