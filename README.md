@@ -3,6 +3,7 @@
 ### Table of Contents
 1. [Getting Started with the HPC](#getting-started-with-northeasterns-high-performance-computing-cluster)
 2. [Running Python using a virtual environment](#running-python-using-a-virtual-environment)
+3. [Getting files on and off the HPC](#getting-files-on-and-off-the-hpc)
 
 ## Getting started with Northeastern's High Performance Computing cluster
 
