@@ -4,9 +4,10 @@
 1. [Getting Started with the HPC](#getting-started-with-northeasterns-high-performance-computing-cluster)
 2. [Running Python using a virtual environment](#running-python-using-a-virtual-environment)
 3. [Getting files on and off the HPC](#getting-files-on-and-off-the-hpc)
-4. Using GitHub repos to manage code
-5. Installing and using Kilby group specific packages
-6. Jupyter notebooks with Open OnDemand
+4. [Using GitHub repos to manage code](#using-github-repos-to-manage-code)
+5. [Installing and using Kilby group specific packages](#installing-and-using-kilby-group-specific-packages)
+6. [Jupyter notebooks with Open OnDemand](#jupyter-notebooks-with-open-ondemand)
+7. [Tips and tricks](#tips-and-tricks)
 
 ## Getting started with Northeastern's High Performance Computing cluster
 
@@ -113,6 +114,15 @@ It may become annoying to type `module add python/3.7.3-base` every time you log
     
     At the top is a menu. Click on `Files`, then `Home Directory`. This will take you to a graphical interface where you can upload and download files from the HPC.
     
-3. Using GitHib
+3. Using GitHib for code and scripts
 
     You will not use typical file transfer to get your scripts and code onto the HPC. Instead we will manage code via GitHub. To get going with this requires some work. See the section
+
+
+## Using GitHub repos to manage code
+
+## Installing and using Kilby group specific packages
+
+## Jupyter notebooks with Open OnDemand
+
+## Tips and tricks
