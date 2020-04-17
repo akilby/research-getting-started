@@ -82,7 +82,7 @@ It may become annoying to type `module add python/3.7.3-base` every time you log
 
 *For more on text editing in Linux, see [here](https://www.howtogeek.com/102468/a-beginners-guide-to-editing-text-files-with-vi/) and [here](https://en.wikipedia.org/wiki/Editor_war).)*
 
-### More
+### For more
 
 [Other notes on the HPC, Unix, and Slurm](https://github.com/akilby/research-getting-started/tree/master/hpc#other-notes-on-the-hpc-unix-and-slurm)
 
