@@ -53,9 +53,9 @@ Here are some useful commands:
 
 ### Getting help
 
-Here's the [HPC documentation.](https://rc-docs.northeastern.edu/en/latest/)
+Here's the official [HPC documentation.](https://rc-docs.northeastern.edu/en/latest/)
 
-Here's a [SLURM guide](https://github.com/neu-spiral/Discovery-Cluster/wiki/using-discovery) for Discovery.
+Here's a handy [SLURM guide](https://github.com/neu-spiral/Discovery-Cluster/wiki/using-discovery) for Discovery.
 
 You can always ask me.
 
