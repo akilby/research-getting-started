@@ -4,6 +4,9 @@
 1. [Getting Started with the HPC](#getting-started-with-northeasterns-high-performance-computing-cluster)
 2. [Running Python using a virtual environment](#running-python-using-a-virtual-environment)
 3. [Getting files on and off the HPC](#getting-files-on-and-off-the-hpc)
+4. Using GitHub repos to manage code
+5. Installing and using Kilby group specific packages
+6. Jupyter notebooks with Open OnDemand
 
 ## Getting started with Northeastern's High Performance Computing cluster
 
@@ -94,17 +97,22 @@ It may become annoying to type `module add python/3.7.3-base` every time you log
 
 1. Using `xfer` and `scp`
 
-    The simple command line option to move one relatively small file from the HPC to your computer:
+    The simple command line option to move a file from the HPC to your computer:
     ```bash
-    scp YOUR_USER_NAME@xfer-00.discovery.neu.edu:/PATH/TO/FILE /PATH/TO/DESTINATION
+    scp YOUR_USER_NAME@xfer.discovery.neu.edu:/PATH/TO/FILE /PATH/TO/DESTINATION
     ```
     or, from your computer to the HPC:
     ```bash
-    scp /PATH/TO/FILE YOUR_USER_NAME@xfer-00.discovery.neu.edu:/PATH/TO/DESTINATION
+    scp /PATH/TO/FILE YOUR_USER_NAME@xfer.discovery.neu.edu:/PATH/TO/DESTINATION
     ```
-
+    More detail in the [helpfiles](https://rc-docs.northeastern.edu/en/latest/using-discovery/transferringdata.html#), especially for PCs.
+    
 2. Using Discovery's Open OnDemand
 
     Open OnDemand is a graphical interface for Discovery that we will use more later in this guide. You can log on by navigating to https://ood.discovery.neu.edu/ and entering your username and password.
     
     At the top is a menu. Click on `Files`, then `Home Directory`. This will take you to a graphical interface where you can upload and download files from the HPC.
+    
+3. Using GitHib
+
+    You will not use typical file transfer to get your scripts and code onto the HPC. Instead we will manage code via GitHub. To get going with this requires some work. See the section
