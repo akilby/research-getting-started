@@ -78,9 +78,9 @@ module add python/3.7.3-base
 
 It may become annoying to type `module add python/3.7.3-base` every time you log in. To do something automatically at login, you need to modify the file found at `~/.bashrc`. 
 
-*(The "easiest" way to do this is with the [world's most difficult-to-use text editor, called vi](https://www.howtogeek.com/102468/a-beginners-guide-to-editing-text-files-with-vi/). Type* `vi ~/.bashrc` *then press the down arrow to get to the bottom of the file. Press* `i` *for insert, then type* `module add python/3.7.3-base`. *Then hit, in order,* `esc`, *then* `:`, *then* `w`, *then* `q`, *then* `enter`. 
+*(The "easiest" way to do this is with the world's most difficult-to-use text editor, called vi. Type* `vi ~/.bashrc` *then press the down arrow to get to the bottom of the file. Press* `i` *for insert, then type* `module add python/3.7.3-base`. *Then hit, in order,* `esc`, *then* `:`, *then* `w`, *then* `q`, *then* `enter`. 
 
-*For more on text editing in Linux, see [here](https://www.howtogeek.com/102468/a-beginners-guide-to-editing-text-files-with-vi/) and [here](https://en.wikipedia.org/wiki/Editor_war).)*
+*A great, short tutorial is [here](https://www.howtogeek.com/102468/a-beginners-guide-to-editing-text-files-with-vi/). More [here](https://en.wikipedia.org/wiki/Editor_war).*
 
 ### For more
 
