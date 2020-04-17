@@ -106,7 +106,7 @@ It may become annoying to type `module add python/3.7.3-base` every time you log
     ```bash
     scp /PATH/TO/FILE YOUR_USER_NAME@xfer.discovery.neu.edu:/PATH/TO/DESTINATION
     ```
-    More detail in the [helpfiles](https://rc-docs.northeastern.edu/en/latest/using-discovery/transferringdata.html#), especially for PCs.
+    More detail in the [RC Docs](https://rc-docs.northeastern.edu/en/latest/using-discovery/transferringdata.html#), especially regarding how to do this on a PC.
     
 2. Using Discovery's Open OnDemand
 
