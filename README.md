@@ -86,14 +86,34 @@ It may become annoying to type `module add python/3.7.3-base` every time you log
 
 ## Other useful notes on the HPC, Unix, and Slurm
 
-The HPC uses [Slurm](https://slurm.schedmd.com/quickstart.html) to manage job scheduling and job-related tasks. 
+The HPC uses [Slurm](https://slurm.schedmd.com/quickstart.html) to manage job scheduling and job-related tasks. Here are some useful commands:
 
-```bash
-squeue -u YOUR_USER_NAME 
-squeue --partition=reservation --reservation=kilby
-seff JOBID
-scancel JOBID
-```
+1. Check the status of jobs you have running on the general partitions (and if they are stuck, find out why they are still in the queue
+    ```bash
+    squeue -u YOUR_USER_NAME 
+    ```
+2. Check the status of all jobs on my reservation:
+    ```bash
+    squeue --partition=reservation --reservation=kilby
+    ```
+3. Check node availability on a partition
+    ```bash
+    sinfo --partition=short
+    ```
+    
+4. Check the resources you have on the node you've provisioned for a job    
+    
+    ```bash
+    seff JOBID
+    ```
+
+5. Kill a job you submitted
+
+    ```bash
+    scancel JOBID
+    ```
+
+
 
 ```bash
 #!/bin/bash
