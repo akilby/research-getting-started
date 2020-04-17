@@ -53,7 +53,7 @@ Here are some useful commands:
 
 ### Getting help
 
-Here's the HPC documentation.
+[Here's the HPC documentation.](https://rc-docs.northeastern.edu/en/latest/)
 
 Here's a SLURM intro.
 
