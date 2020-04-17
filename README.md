@@ -94,11 +94,11 @@ It may become annoying to type `module add python/3.7.3-base` every time you log
 
 1. Using `xfer` and `scp`
 
-    The simple command line option to move one relatively small file:
+    The simple command line option to move one relatively small file from the HPC to your computer:
     ```bash
     scp YOUR_USER_NAME@xfer-00.discovery.neu.edu:/PATH/TO/FILE /PATH/TO/DESTINATION
     ```
-    or
+    or, from your computer to the HPC:
     ```bash
     scp /PATH/TO/FILE YOUR_USER_NAME@xfer-00.discovery.neu.edu:/PATH/TO/DESTINATION
     ```
