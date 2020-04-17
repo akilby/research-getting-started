@@ -4,7 +4,7 @@
 
 The HPC uses [Slurm](https://slurm.schedmd.com/quickstart.html) to manage job scheduling and job-related tasks. 
 
-You'll mostly start by running jobs interactively using `srun` as discussed in the main Getting Started guide. When you feel more confident, you may want to submit self-contained jobs using the jobs scheduler, and the command `sbatch`. You do this by preparing a job script - a text file, that contains the commands you'd use to start a job using `srun`.
+You'll mostly start by running jobs interactively using `srun` as discussed in the [main Getting Started guide](https://github.com/akilby/research-getting-started#how-to-start-a-machine-to-do-work). When you feel more confident, you may want to submit self-contained jobs using the jobs scheduler, and the command `sbatch`. You do this by preparing a job script - a text file, that contains the commands you'd use to start a job using `srun`.
 
 ```bash
 #!/bin/bash
