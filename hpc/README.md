@@ -1,5 +1,3 @@
-
-
 ## Other notes on the HPC, Unix, and Slurm
 
 ### sbatch
@@ -55,7 +53,10 @@ Here are some useful commands:
 
 ### Getting help
 
+Here's the HPC documentation.
 
+Here's a SLURM intro.
 
-To generate a help ticket, you can email:
-`rchelp@northeastern.edu`
+You can always ask me.
+
+To generate a help ticket with the HPC team, you can email `rchelp@northeastern.edu` and it will create a ticket in ServiceNow.
