@@ -53,10 +53,10 @@ Here are some useful commands:
 
 ### Getting help
 
-[Here's the HPC documentation.](https://rc-docs.northeastern.edu/en/latest/)
+Here's the [HPC documentation.](https://rc-docs.northeastern.edu/en/latest/)
 
-Here's a SLURM intro.
+Here's a [SLURM guide](https://github.com/neu-spiral/Discovery-Cluster/wiki/using-discovery) for Discovery.
 
 You can always ask me.
 
-To generate a help ticket with the HPC team, you can email `rchelp@northeastern.edu` and it will create a ticket in ServiceNow.
+To generate a help ticket with the HPC team, you can email rchelp@northeastern.edu and it will create a ticket in ServiceNow.
