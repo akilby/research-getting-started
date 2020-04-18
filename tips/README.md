@@ -1,6 +1,6 @@
 ## Useful Linux tips
 
-1. You can replay a command you recently used, by pressing the up arrow.
+1. You can find a command you recently used, by pressing the up arrow.
 
 2. If you want to cancel a process, type `ctrl-c`. You can also use this to cancel out of a line you were typing to have a fresh prompt.
 
