@@ -127,4 +127,4 @@ It may become annoying to type `module add python/3.7.3-base` every time you log
 
 ## Tips and tricks
 
-[Here's]() a collection of useful tips and tricks I've accumulated over the years.
+[Here's](https://github.com/akilby/research-getting-started/tree/master/tips#useful-linux-tips) a collection of useful tips and tricks I've accumulated over the years.
