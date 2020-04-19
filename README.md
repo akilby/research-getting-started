@@ -7,7 +7,8 @@
 4. [Using GitHub repos to manage code](#using-github-repos-to-manage-code)
 5. [Installing and using Kilby group specific packages](#installing-and-using-kilby-group-specific-packages)
 6. [Jupyter notebooks with Open OnDemand](#jupyter-notebooks-with-open-ondemand)
-7. [Tips and tricks](#tips-and-tricks)
+7. [Text editors](#text-editors)
+8. [Tips and tricks](#tips-and-tricks)
 
 ## Getting started with Northeastern's High Performance Computing cluster
 
@@ -124,6 +125,10 @@ It may become annoying to type `module add python/3.7.3-base` every time you log
 ## Installing and using Kilby group specific packages
 
 ## Jupyter notebooks with Open OnDemand
+
+## Text editors
+
+Sublime text, code linting
 
 ## Tips and tricks
 
