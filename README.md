@@ -95,6 +95,33 @@ It may become annoying to type `module add python/3.7.3-base` every time you log
 
 ## Running Python in a virtual environment
 
+Much of our work will be in Python. However, adding Python as a module using `module add` will only allow you to work with Python 3.7 with its standard packages. In order to add other packages (which we will need to do), you'll need to work inside a *virtual environment,* which allows you to install packages and modify your environment without modifying the base Python installation.  
+
+The below should work as long as venvs have already been installed system-wide. (If not, try `pip install virtualenv`)
+
+To create a venv, `mkdir` a directory where you will store venvs, such as `/home/YOUR_USER_NAME/venvs/`, and `cd` into it. Type (using a VENVNAME like *general*):
+
+```bash
+python -m venv VENVNAME 
+```
+
+To activate the venv (after first logging into a node using `srun`):
+```bash
+source VENVNAME/bin/activate 
+```
+You can then install a package you need using `pip`, for instance you can install the data management package Pandas like so:
+
+```bash
+pip install pandas
+```
+
+To check your installation worked, type `python` then `import pandas` -- this should work without raising an error.
+
+To exit the venv when finished, you can type:
+```bash
+deactivate 
+```
+
 ## Getting files on and off the HPC
 
 1. Using `xfer` and `scp`
