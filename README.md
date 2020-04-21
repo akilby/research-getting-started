@@ -97,9 +97,9 @@ It may become annoying to type `module add python/3.7.3-base` every time you log
 
 Much of our work will be in Python. However, the Python installed on the cluster is only Python with its standard packages. In order to add other packages (which we will need to do), you'll need to work inside a *virtual environment,* which allows you to install packages and modify your environment without modifying the base Python installation that's on the cluster.  
 
-The below should work as long as venvs have already been installed system-wide. (If not, try `pip install virtualenv`)
+The below should work as long as the package that manages virtual environments has already been installed system-wide, which I believe it should already be on the cluster. (If not, try `pip install virtualenv`.)
 
-To create a venv, `mkdir` a directory where you will store venvs, such as `/home/YOUR_USER_NAME/venvs/`, and `cd` into it. Type (using a VENVNAME like *general*):
+To create a venv, make sure you've already `module add`ed Python per the above instructions. `mkdir` a directory where you will store venvs, such as `/home/YOUR_USER_NAME/venvs/`, and `cd` into it. Type (using a virtual environment name like *general*):
 
 ```bash
 python -m venv VENVNAME 
