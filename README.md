@@ -120,7 +120,7 @@ To check your installation worked, type `python` then `import pandas` -- this sh
 Every time you log in to a node to work, you'll need to 
 
 ```bash
-source VENVNAME/bin/activate 
+source /home/YOUR_USER_NAME/venvs/VENVNAME/bin/activate 
 ```
 
 To exit the venv when finished, you can type:
