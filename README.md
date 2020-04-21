@@ -95,7 +95,7 @@ It may become annoying to type `module add python/3.7.3-base` every time you log
 
 ## Running Python in a virtual environment
 
-Much of our work will be in Python. However, adding Python as a module using `module add` will only allow you to work with Python 3.7 with its standard packages. In order to add other packages (which we will need to do), you'll need to work inside a *virtual environment,* which allows you to install packages and modify your environment without modifying the base Python installation.  
+Much of our work will be in Python. However, the Python installed on the cluster is only Python with its standard packages. In order to add other packages (which we will need to do), you'll need to work inside a *virtual environment,* which allows you to install packages and modify your environment without modifying the base Python installation that's on the cluster.  
 
 The below should work as long as venvs have already been installed system-wide. (If not, try `pip install virtualenv`)
 
