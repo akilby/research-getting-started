@@ -117,10 +117,18 @@ pip install pandas
 
 To check your installation worked, type `python` then `import pandas` -- this should work without raising an error.
 
+Every time you log in to a node to work, you'll need to 
+
+```bash
+source VENVNAME/bin/activate 
+```
+
 To exit the venv when finished, you can type:
 ```bash
 deactivate 
 ```
+
+(or you can just log out without deactivating; it won't do any harm.)
 
 ## Getting files on and off the HPC
 
