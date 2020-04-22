@@ -159,7 +159,7 @@ deactivate
 
 ## Installing and using Kilby group specific packages
 
-In your virtual environment, install three internal packages as follows;
+In your virtual environment, install three internal packages as follows:
 
 ```bash
 pip install -e /work/akilby/Packages/npi/
