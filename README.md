@@ -4,8 +4,8 @@
 1. [Getting Started with the HPC](#getting-started-with-northeasterns-high-performance-computing-cluster)
 2. [Running Python in a virtual environment](#running-python-in-a-virtual-environment)
 3. [Getting files on and off the HPC](#getting-files-on-and-off-the-hpc)
-4. [Using GitHub repos to manage code](#using-github-repos-to-manage-code)
-5. [Installing and using Kilby group specific packages](#installing-and-using-kilby-group-specific-packages)
+4. [Installing and using Kilby group specific packages](#installing-and-using-kilby-group-specific-packages)
+5. [Using GitHub repos to manage code](#using-github-repos-to-manage-code)
 6. [Jupyter notebooks with Open OnDemand](#jupyter-notebooks-with-open-ondemand)
 7. [Text editors](#text-editors)
 8. [Tips and tricks](#tips-and-tricks)
@@ -155,8 +155,6 @@ deactivate
     You will not use typical file transfer to get your scripts and code onto the HPC. Instead we will manage code via GitHub. To get going with this requires some work. See the [next section](#using-github-repos-to-manage-code).
 
 
-## Using GitHub repos to manage code
-
 ## Installing and using Kilby group specific packages
 
 In your virtual environment, install three internal packages as follows:
@@ -166,6 +164,8 @@ pip install -e /work/akilby/Packages/npi/
 pip install -e /work/akilby/Packages/utility_data/
 pip install -e /work/akilby/Packages/cache/
 ```
+
+## Using GitHub repos to manage code
 
 
 ## Jupyter notebooks with Open OnDemand
