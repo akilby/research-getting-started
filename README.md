@@ -159,6 +159,15 @@ deactivate
 
 ## Installing and using Kilby group specific packages
 
+In your virtual environment, install three internal packages as follows;
+
+```bash
+pip install -e /work/akilby/Packages/npi/
+pip install -e /work/akilby/Packages/utility_data/
+pip install -e /work/akilby/Packages/cache/
+```
+
+
 ## Jupyter notebooks with Open OnDemand
 
 ## Text editors
