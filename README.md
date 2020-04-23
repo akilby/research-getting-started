@@ -109,7 +109,14 @@ To activate the venv (after first logging into a node using `srun`):
 ```bash
 source VENVNAME/bin/activate 
 ```
-You can then install a package you need using `pip`, for instance you can install the data management package Pandas like so:
+You are now in a virtual environment that you can use to install custom packages either from our group or from the open source community. Packages are managed using `pip`. First, type 		
+
+```bash		
+pip list		
+```		
+
+To see what's installed so far. You will probably see a warning that pip itself is out of date. Do as advised and type: `pip install --upgrade pip` to update. 		
+You can now install any packages you need using `pip`. For instance, you will need the popular data management package Pandas, which you can install like so:
 
 ```bash
 pip install pandas
@@ -117,7 +124,7 @@ pip install pandas
 
 To check your installation worked, type `python` then `import pandas` -- this should work without raising an error.
 
-Every time you log in to a node to work, you'll need to 
+Every time you log in to a node to work, you'll need to activate this venv:
 
 ```bash
 source /home/YOUR_USER_NAME/venvs/VENVNAME/bin/activate 
