@@ -177,6 +177,40 @@ pip install -e /work/akilby/Packages/cache/
 
 ## Jupyter notebooks with Open OnDemand
 
+Jupyter notebooks are an easy way to interact with Python and generate visual, easy-to-view presentations of results. 
+
+The easiest way to use a Jupyter notebook is to navigate NU's Open OnDemand: 
+
+https://ood.discovery.neu.edu/
+
+And click on "Interactive Apps" -> Jupyter Notebook - Kilby Group.
+
+(Or just "Interactive Apps" -> Jupyter Notebook if you don't want to use one of our reservations)
+
+You can generally start a notebook with 24 hours and 250GB memory unless you know you need less.
+
+You will then click on "Connect to Jupyter" and will see a listing of all the files in your home directory. You'll need a folder for virtual environments.  You can make one here if you like, by clicking "New" in the top right corner, and clicking "Folder." It will make an Untitled Folder, so you should title it something like "Notebooks." 
+
+You will also want to be able to run your Jupyter notebook *inside* the virtual environment you created above. To do so requires running Jupyter from a *custom kernel* using your venv.
+
+Switch back to the ssh interface you've chosen (Terminal on a mac) and make sure you're logged into Discovery. Source into the virtual environment you created as you normally do, per the above. Make sure that Jupyter is installed, as well as ipykernel:
+
+```bash
+pip install jupyter
+```
+```bash
+pip install ipykernel
+```
+
+Then simply type:
+
+```bash
+ipython kernel install --user --name=NAME_OF_VENV
+```
+
+Now, when you create a new notebook in the Jupyter graphical interface in Open OnDemand, you'll see your venv (named whatever you called it above) as an option when clicking "New" in the upper right hand corner. When you select it, a new Jupyter notebook will open with NAME_OF_VENV as a kernel, and all your user packages will be avialable to you.
+
+
 ## Text editors
 
 Sublime text, code linting
