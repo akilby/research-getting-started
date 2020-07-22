@@ -176,11 +176,9 @@ pip install -e /work/akilby/Packages/cache/
 
 If you haven't already, sign up for a free [GitHub Education](https://education.github.com/students) account. I will add you as a contributor to the relevant repos for your project.
 
-Once you have an account, you will need to get set up so you can push and pull from GitHub to your local computer. I do this using SSH keys, which you may have already worked with if you followed the note above under *Getting Started with the HPC*, [Logging in](#logging-in). 
+Once you have an account, you will need to get set up so you can push and pull from GitHub to your local computer. I do this using SSH keys, which you will have already worked with if you followed the note above under *Getting Started with the HPC*, [Logging in](#logging-in). 
 
-GitHub has a [guide here](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh). 
-
-Specifically, you should start with [Checking for existing SSH keys](https://docs.github.com/en/github/authenticating-to-github/checking-for-existing-ssh-keys), which you will likely have if you installed them while following *Getting Started with the HPC*. Otherwise, you likely will have to create SSH keys per the instructions in [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent). Finally, follow the instructions to [add the keys to your GitHub account](https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account).
+GitHub has a [full guide here](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh) on the steps you need to accomplish this. Specifically, you should start with [Checking for existing SSH keys](https://docs.github.com/en/github/authenticating-to-github/checking-for-existing-ssh-keys), which you will have if you installed them while following *Getting Started with the HPC*. Otherwise, you will likely have to create new SSH keys per the instructions in [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent). Finally, follow their instructions to [add the keys to your GitHub account](https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account).
 
 
 
