@@ -174,6 +174,11 @@ pip install -e /work/akilby/Packages/cache/
 
 ## Using GitHub repos to manage code
 
+If you haven't already, sign up for a free [GitHub Education](https://education.github.com/students) account. I will add you as a contributor to the relevant repos for your project.
+
+Once you have an account, you will need to get set up so you can push and pull from GitHub to your local computer. I do this using SSH keys, which you may have already worked with if you followed the note above under Getting Started with the HPC, [Logging in](#logging-in).
+
+
 
 ## Jupyter notebooks with Open OnDemand
 
