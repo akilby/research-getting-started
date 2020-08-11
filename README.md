@@ -220,7 +220,26 @@ Now, when you create a new notebook in the Jupyter graphical interface in Open O
 
 ## Text editors
 
-Sublime text, code linting
+It is good to use a full-featured text editor to edit code. [This article](https://kinsta.com/blog/best-text-editors/) has a good overview of the best options; I use [Sublime Text](https://www.sublimetext.com/). 
+
+### Sublime Text customization
+
+Sublime Text has a wide variety of packages written by the open-source community to make writing code a better experience. We will work mostly in Python, so it is a very good idea to install a [*code linter*](https://en.wikipedia.org/wiki/Lint_(software)) for Python that will assist you in debugging and writing code with better style. To set up Sublime Text to lint Python, you should:
+
+*Install Package Control*
+
+1. Get Package Control (used to install Sublime Text packages) by typing Command-Shift-P and then typing “Install Package Control” and pressing "Enter."
+
+
+*Code Linting*
+
+1. In Terminal or at the command line you use to access Python on your home computer, use ```pip``` to install flake8 by typing: ```pip install flake8```. Do **not** do this inside a virtual environment.
+2. In Sublime Text, use Package Control to install SublimeLinter. Type ```command-shift-p -> Install Packages -> SublimeLinter```
+3. One SublimteLinter is installed, you have to install the linting packages for Python. I use several. Type:
+    a.  ```command-shift-p -> Install Packages -> SublimeLinter-pycodestyle```
+    b.  ```command-shift-p -> Install Packages -> SublimeLinter-flake8```
+    c.  ```command-shift-p -> Install Packages -> SublimeLinter-pyflakes```
+
 
 ## Tips and tricks
 
