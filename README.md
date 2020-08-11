@@ -238,7 +238,7 @@ Sublime Text has a wide variety of packages written by the open-source community
 
     ```command-shift-p -> Install Packages -> SublimeLinter```
 
-3. One SublimteLinter is installed, you have to install the linting packages for Python. I use several. Type:
+3. One SublimeLinter is installed, you have to install the linting packages for Python. I use several. Type:
 
     * ```command-shift-p -> Install Packages -> SublimeLinter-pycodestyle```
 
