@@ -234,12 +234,14 @@ Sublime Text has a wide variety of packages written by the open-source community
 *Code Linting*
 
 1. In Terminal or at the command line you use to access Python on your home computer, use ```pip``` to install flake8 by typing: ```pip install flake8```. Do **not** do this inside a virtual environment.
-2. In Sublime Text, use Package Control to install SublimeLinter. Type ```command-shift-p -> Install Packages -> SublimeLinter```
+2. In Sublime Text, use Package Control to install SublimeLinter. Type 
+```command-shift-p -> Install Packages -> SublimeLinter```
 3. One SublimteLinter is installed, you have to install the linting packages for Python. I use several. Type:
-    a.  ```command-shift-p -> Install Packages -> SublimeLinter-pycodestyle```
-    b.  ```command-shift-p -> Install Packages -> SublimeLinter-flake8```
-    c.  ```command-shift-p -> Install Packages -> SublimeLinter-pyflakes```
+a. ```command-shift-p -> Install Packages -> SublimeLinter-pycodestyle```
+b. ```command-shift-p -> Install Packages -> SublimeLinter-flake8```
+c. ```command-shift-p -> Install Packages -> SublimeLinter-pyflakes```
 
+[Here](https://janikarhunen.fi/three-steps-to-lint-python-3-6-in-sublime-text) is a useful article going over these steps in a bit more detail.
 
 ## Tips and tricks
 
