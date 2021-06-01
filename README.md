@@ -115,7 +115,14 @@ You are now in a virtual environment that you can use to install custom packages
 pip list		
 ```		
 
-To see what's installed so far. You will probably see a warning that pip itself is out of date. Do as advised and type: `pip install --upgrade pip` to update. 		
+To see what's installed so far. You will then need to type:
+
+```bash
+pip install -U pip wheel setuptools
+```
+
+You will probably also see a warning that pip itself is out of date. Do as advised and type: `pip install --upgrade pip` to update. 
+
 You can now install any packages you need using `pip`. For instance, you will need the popular data management package Pandas, which you can install like so:
 
 ```bash
